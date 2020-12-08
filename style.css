@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital@1&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Amiri', serif;
+    line-height: 1.5;
+    background-color: #333333;
+    
+}
+a{
+    text-decoration: none;
+
+}
+.text-primary{
+    color: #93cb52;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: #333333;
+    color: rgb(51, 51,51,0.4);
+    padding: 1rem;
+    z-index: 1;
+}
+#navbar ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+#navbar ul li a{
+    color: #ffffff;
+    margin: 0 0.25rem;
+    padding: 0.75rem;
+
+}
+#navbar ul li a:hover{
+    background-color:green ;
+    border-radius: 5px;
+   
+}
+#showcase{
+background:#333333 url("showcase.jpg")no-repeat
+center center/cover;
+height:100vh ;
+color: #ffffff  ;
+}
+#showcase .showcase-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background: rgb(0, 0,0,0.4);
+    position: absolute;
+    top: 65px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+}
+.lh{
+    font-size: 4rem;
+    margin-bottom: 0.75;
+    line-height: 1.1;
+}
+.lead{
+    font-size: 1.3;
+    margin-bottom: 2rem;
+}
+.btn{
+    display: inline-block;
+    color: #ffffff;
+    background-color: #93cb52;
+    padding: 0.5rem 2rem;
+    border-radius: 5px;
+    border: none;
+}
+.btn:hover{
+    background: #7ab436;
+}
+#what{
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    background-color: #f4f4f4;
+    color: #333333;
+    text-align: center;
+   
+}
+.container{
+    padding-top: 1rem;
+    display: flex;
+    align-items: center;
+}
+.item{
+  
+    background-color: #93cb52;
+    border-radius: 60%;
+    margin-left: 2.4rem;
+}
+.article{
+    margin-left: 5rem;
+    text-align: center;
+
+}
+.who{
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    display: inline-block;
+    background-color: #f4f4f4;
+    color: #333333;
+    text-align: center;
+    
+   
+}
+.who-img{
+    
+    background: #333333 url("group.jpg") no-repeat
+    center center/cover ;
+    height:55vh ;
+    width: 102.65vh;
+    float: left;
+    
+
+
+    
+}
+.who-text{
+    box-sizing: border-box;
+    text-align: right;
+    
+    background-color: cornsilk;
+    
+    text-align: center;
+    float: right;
+    
+    width: 50%;
+   
+
+}
+.who-text ul{
+    list-style: none;
+
+} 
+.who-text p{
+    
+    padding-bottom: 1.5rem;
+}
+.who-text p h2{
+    padding-bottom: 1.5 rem;
+}
+.list{
+    padding-bottom: 1.5rem;
+}
+.itemc{
+    padding-bottom: 20rem;
+    float: left;
+    background-color: darkkhaki;
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    height: 55vh;
+    
+}
+.txtp{
+    align-items: center;
+    padding-right: 25rem;
+    font-size: 65px;
+    
+}
+.container1{
+    background-color:greenyellow
+}
